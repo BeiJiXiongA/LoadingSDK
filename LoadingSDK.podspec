@@ -18,8 +18,9 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/BeiJiXiongA/LoadingSDK.git", :tag => s.version}
 
 
-  s.source_files  = "LoadingSDKFiles"
-  #s.vendored_libraries = 'LoadingSDKFiles/SDKDemoA.a'
+  s.source_files  =  "**/*.{h}"
+  # s.vendored_libraries = 'LoadingSDKFiles/SDKDemoA'
+  s.libraries = "LoadingFiles/SDKDemoA.a"
   #s.exclude_files = "Classes/Exclude"
   s.requires_arc = true
   #s.public_header_files = "Classes/**/*.h"
