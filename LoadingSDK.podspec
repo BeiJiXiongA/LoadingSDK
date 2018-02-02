@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "LoadingSDK"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "A loading view."
 
   s.description  = <<-DESC
@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "8.0"
   s.ios.deployment_target = "8.0"
 
-  s.source       = { :git => "https://github.com/BeiJiXiongA/LoadingSDK.git", :tag => "1.0.1"}
+  s.source       = { :git => "https://github.com/BeiJiXiongA/LoadingSDK.git", :tag => s.version}
 
 
   s.source_files  = "LoadingSDKFiles"
