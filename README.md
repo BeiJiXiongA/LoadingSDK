@@ -9,4 +9,4 @@ _loadingView = [LoadingView showLoadingViewInView:self.view];
  
  显示效果
  
- ![image](https://github.com/BeiJiXiongA/LoadingSDK/demo.gif)
+ ![img](https://github.com/BeiJiXiongA/LoadingSDK/demo.gif)
