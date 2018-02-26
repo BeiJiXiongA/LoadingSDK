@@ -19,8 +19,8 @@ Pod::Spec.new do |s|
 
 
   s.source_files  =  "**/*.{h}"
-  # s.vendored_libraries = 'LoadingSDKFiles/SDKDemoA'
-  s.libraries = "LoadingFiles/SDKDemoA.a"
+  s.ios.vendored_libraries = 'LoadingSDKFiles/SDKDemoA.a'
+  #s.ios.libraries = "LoadingFiles/SDKDemoA"
   #s.exclude_files = "Classes/Exclude"
   s.requires_arc = true
   #s.public_header_files = "Classes/**/*.h"
